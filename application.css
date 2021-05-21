@@ -199,8 +199,15 @@ footer .socials img {
 }
 
 p {
-  margin: 25px 0;
-  line-height: 1.25rem;
+  margin: 45px 0;
+  line-height: 1.5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  p {
+    margin: 25px 0;
+    line-height: 1.25rem;
+  }
 }
 
 h2 {
@@ -241,12 +248,12 @@ button:hover {
 
 .hero h1 {
   position: absolute;
-  margin-top: 35px;
+  margin-top: 55px;
   width: 100%;
   color: #fff;
   text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   text-transform: uppercase;
-  font-size: 1.25rem;
+  font-size: 1.65rem;
 }
 
 .hero img {
@@ -281,6 +288,8 @@ button:hover {
 .cards p {
   font-weight: 900;
   font-size: .75rem;
+  line-height: 1.25rem;
+  margin: 25px 0;
 }
 
 @media only screen and (max-width: 768px) {
