@@ -121,7 +121,6 @@ nav a {
 }
 
 nav a:hover:not(.active) {
-  /* text-decoration: underline; */
   color: var(--secondary-color);
 }
 
@@ -315,13 +314,11 @@ button:hover {
 #about section img {
   width: 40%;
   object-fit: cover;
-  /* object-position: top; */
 }
 
 #about section:nth-child(even) img {
   margin-right: 0;
   margin-left: max(30px, 10%);
-  /* object-position: right; */
 }
 
 #about h2 {
